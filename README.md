@@ -5,6 +5,9 @@ To complete this assignment, I used the Flask web framework, a lightweight Pytho
 
 For storing the transaction data and total balances, I used Python data structures in memory. More on this in the Design and Implementation section.
 
+## Brief Demo
+https://youtu.be/ak_-S89ouVU
+
 ## Installation Guide
 __Note: This project is entirely in Python 3. For larger projects, I would have used a `requirements.txt` file to install all dependencies, but for this project, I will list the `pip3` commands since there are very few (just 2).__
 
