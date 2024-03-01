@@ -23,6 +23,8 @@ pip3 install requests
 - That's it! Make sure flask was installed correctly by typing `flask` in a new Terminal window. It should output the usage notes for flask. If there's any issues please consult the [flask documentation](https://flask.palletsprojects.com/en/3.0.x/).
 
 ## Starting up the server
+__Note: make sure that the entire project directory is executable__
+
 __In the project directory__, enter `flask --app app run` in the Terminal. This will start a local Flask web server on your localhost. It should say `Running on http://127.0.0.1:5000`. http://127.0.0.1:5000 is the root address of the server. It's important to use the correct port as well (5000 in this case).
 
 __If the address is different from the address above, use that address before the route names below.__
