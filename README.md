@@ -154,7 +154,7 @@ GET Response:
 - `7`: custom test case
     - you can use `test_add_transaction()`, `test_spend()`, and `test_balance()` to create your own tests. For `test_add_transaction()`, `test_spend()`, you need to provide a request body in the form of a Python Dictionary.
 
-__Note__: if your base URL for the slack server is different from http://127.0.0.1:5000/, you will have
+__Note__: if your base URL for the slack server is different from http://127.0.0.1:5000/, you will have to edit the URL variable in line 9 to the correct base URL.
 
 
 ## Limitations
