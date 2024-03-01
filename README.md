@@ -89,7 +89,7 @@ __IMPORTANT__: You NEED be running the server using `flask --app app run` before
 
 Separate from the backend code itself, I created a basic `run_tests.py` script. To use, you can directly run it in the working directory using `python3 run_tests.py <test_no>`, where `test_no` is the following:
 
-- `0`: orignal test case in the original PDF
+- __`0`: orignal test case in the original PDF__
     - expected output: see orig PDF
 - `1`: spending exactly the total balance
     - same inputs as case 0, except spend call is the entire total balance
@@ -107,7 +107,7 @@ Separate from the backend code itself, I created a basic `run_tests.py` script. 
     - call 4: invalid payer (not string)
     - call 5: invalid points (0)
     - call 6: invalid timestamp (negative)
-- `5`: stress test/making sure priority queue works
+- __`5`: stress test/making sure priority queue works__
     - *Note: I put `sleep()` calls to make the input more readable and not happen all at once*
     - This test uses a fixed list of positive transactions - some with payer='OLDEST' with the oldest timestamps, payer='NEWEST' with most recent timestamps, and payer = 'MIDDLE' with timestamps in between. The test then randomizes the order in which the transactions are posted to the server. The test then spends all the points in equal increments. Because the timestamps, not insertion order determines spending order, the spending calls should return the same output below. All the points will be spent, so the ending balance should be 0 after the spends. This test will loop a total of 10 times to ensure reliability.
 ```
