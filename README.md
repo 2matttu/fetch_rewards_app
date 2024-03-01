@@ -13,6 +13,7 @@ __Note: This project is entirely in Python 3. For larger projects, I would have 
 
 I was using macOS to develop and run this so the setup might be slightly different for Linux and Windows machines.
 
+- Step 0: Download the repository in .zip form or git clone it. Many of the following steps assumes you are in that working directory (where app.py is).
 - Step 1: Install the latest stable version of [Python 3](https://www.python.org/downloads/) (as of 3/1 it's 3.12.2 but I'm on 3.9.6 so a relatively new version should also work :). Confirm the installation by running `python` or `python3` in your Terminal.
 - Step 2: Now you should also have access to `pip3`, the package manager for Python 3. Using `pip3`, you will install the following packages in the project working directory using Terminal:
 ```
